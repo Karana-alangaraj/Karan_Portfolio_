@@ -632,7 +632,6 @@ section:first-child {
 
 @media (max-width: 885px) {
   :root {
-    --gutter-huge: 4rem;
     --gutter-x-large: 4rem;
   }
 }
