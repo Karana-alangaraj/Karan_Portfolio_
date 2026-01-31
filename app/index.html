@@ -1,0 +1,403 @@
+<!--
+  Greetings!
+
+  This delightful template has been meticulously crafted and brought to life by Syed Mohsin. It is generously shared with the world, inviting you to unleash your creativity and tailor it to your heart's content.
+-->
+
+<!-- For any inquiries or collaborations reach out to me at devsyedmohsin@gmail.com -->
+
+<!--
+  Embrace the guidance inscribed within the comments below to fashion an awe-inspiring portfolio of your own.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Read and update content attributes accordingly  -->
+
+    <meta
+            name="description"
+            content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations."
+    />
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Syed Mohsin's Portfolio">
+    <meta itemprop="description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+    <!-- Reference screenshot of updated site's header in place of content -->
+    <meta itemprop="image" content="assets/images/sharing-card.png">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://ossportfolio.netlify.app">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Syed Mohsin's Portfolio">
+    <meta property="og:description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+    <!-- Reference screenshot of updated site's header in content -->
+    <meta property="og:image" content="assets/images/sharing-card.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Syed Mohsin's Portfolio">
+    <meta name="twitter:description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+    <!-- Reference screenshot of updated site's header in content -->
+    <meta name="twitter:image" content="assets/images/sharing-card.png">
+
+
+    <!-- Update favicon href attribute with image of yourself -->
+    <link
+            rel="shortcut icon"
+            href="src/main/assets/images/karan.jpg"
+            type="image/png"
+    />
+
+    <link
+            rel="preload"
+            href="assets/fonts/Mona-Sans.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+    />
+
+    <link rel="stylesheet" href="style.css"  />
+    <script src="script.js" defer></script>
+
+    <!-- Your name here -->
+    <title>Karan's Portfolio</title>
+</head>
+
+<body>
+
+<script>
+    const theme = localStorage.getItem("theme") || "dark";
+    document.body.classList.add(theme);
+</script>
+
+<header class="header">
+
+    <div class="menu-btn-container">
+        <div class="container">
+            <button type="button"  class="menu-btn">menu</button>
+        </div>
+    </div>
+
+    <nav class="nav hidden">
+        <ol class="nav-items">
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#work">About Me</a></li>
+            <li class="nav-item"><a href="#blog">My Work Experience</a></li>
+            <li class="nav-item"><a href="#skills">Education</a></li>
+            <li class="nav-item">
+                <a href="#contact" data-focused="last-focused">Contact</a>
+            </li>
+        </ol>
+    </nav>
+
+    <div class="container">
+        <div class="header-textbox">
+            <!-- Replace with your name and job title -->
+            <h1 class="h1">
+                <span>Hi, I'm Karan</span>
+                <span>Graphic Designer</span>
+            </h1>
+
+            <!-- Add a small introductory paragraph about yourself -->
+            <p class="header-text">
+                A creative graphic designer who builds visually rich, modern, and intuitive designs that communicate with clarity.
+            </p>
+
+            <div class="header-btns">
+                <a href="#contact" class="btn btn-cta">Hire me</a>
+                <a href="#work" class="btn btn-secondary">See my work</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="work">
+        <div class="container">
+            <h2 class="h2" id="work">About Me</h2>
+            <div class="work-boxes">
+                <div class="work-box">
+                    <div class="work-textbox">
+                        <h3 class="h3">Karan A</h3>
+                        <h3 class="h3">EXPERIENCE : 3 YEARS</h3>
+                        <p class="work-text">
+                            To work hard and smart with full dedication for the
+                            achievement of organization objective under satisfying job
+                            contact, hence enhancing my skill and knowledge and ready
+                            to learn new things.
+                        </p>
+                        <!-- Add technologies you used to build the project -->
+                        <ol class="work-technologies">
+                            <li data-label="Degree"><span>Master Of Science</span></li>
+                            <li data-label="Place"><span>Cuddalore</span></li>
+                            <li data-label="DOB"><span>01/05/2001</span></li>
+                            <li class="contact-info" data-label="Contact"><span>+91 90470 26770 / +91 93444 59984</span></li>
+                            <li data-label="Mail ID"><span>karan012001@gmail.com</span></li>
+                        </ol>
+
+                        <div class="work-links">
+                            <!-- Add url of project in href attribute -->
+                            <a href="https://drive.google.com/drive/folders/1eXbHeGrD_EdD4RZ9WBEwpk-oYfpL_fQ9" target="_blank" rel="noopener" class="link"
+                            >My Work(Drive Link)</a
+                            >
+
+                            <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                            <a
+                                    href="https://www.linkedin.com/in/designer-karan-a-8916a924b "
+                                    target="_blank"
+                                    rel="noopener"
+                                    title="Source code"
+                            >
+                                <img
+                                        src="src/main/assets/images/linkedin.png"
+                                        alt="LinkedIn"
+                                        loading="lazy"
+                                />
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Update img src and alt attribute  -->
+
+                    <picture class="work-img">
+                        <img
+                                loading="lazy"
+                                src="src/main/assets/images/karan.jpg"
+                                alt="agency elevation"
+                        />
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- I write blog posts on dev.to at https://dev.to/devsyedmohsin. I have linked my articles accordingly, so please update the article title, description, and link accordingly. For example, if you write an article on Medium, link your article to Medium. Also, don't forget to update the reaction count. -->
+
+    <section class="article">
+        <div class="container">
+            <h2 class="h2" id="blog">My Work Experience</h2>
+            <div class="experience-skills-section">
+                <div class="experience-row">
+                    <section class="experience-card animate-on-scroll">
+                        <h3 class="exp-role">Graphic Designer with 3 years of professional experience</h3>
+                    </section>
+                    <section class="experience-card animate-on-scroll">
+                        <h3 class="exp-role">Graphic Designer</h3>
+                        <p class="exp-company"><strong>Cleverso Software Solutions</strong></p>
+                        <p class="exp-duration">April 2023 - Sep 2023</p>
+                        <p class="exp-desc">
+                            Designed creative assets for digital platforms, including social
+                            media and websites, using Photoshop and Illustrator. Edited
+                            videos, created motion graphics, and enhanced brand
+                            storytelling with Premiere Pro, After Effects, and DaVinci
+                            Resolve.
+                        </p>
+                    </section>
+                    <section class="experience-card animate-on-scroll">
+                        <h3 class="exp-role">Graphic Designer</h3>
+                        <p class="exp-company"><strong>Kambaa Incorporation</strong></p>
+                        <p class="exp-duration">Sep 2023 - March 2025</p>
+                        <p class="exp-desc">
+                            Developed engaging visual content for marketing and
+                            branding using Photoshop and Illustrator. Edited videos,
+                            created motion graphics, and enhanced digital storytelling
+                            with Premiere Pro, After Effects, and DaVinci Resolve.
+                        </p>
+                    </section>
+                    <section class="experience-card animate-on-scroll">
+                        <h3 class="exp-role">Graphic Designer</h3>
+                        <p class="exp-company"><strong>Cyber Security Nxxt</strong></p>
+                        <p class="exp-duration"> Apr 2025 - Present</p>
+                        <p class="exp-desc">
+                            Created internal design materials like brochures, flyers, and
+                            logos. Also made clear and neat PPT presentations and Word
+                            documents for better communication.
+                        </p>
+                    </section>
+                </div>
+                <div class="skills-row animate-on-scroll">
+                    <div class="skills-list-container">
+                        <h3 class="skills-title">Skills</h3>
+                        <ul class="skills-list">
+                            <li>Adobe Photoshop</li>
+                            <li>Adobe Illustrator</li>
+                            <li>Adobe Premiere Pro</li>
+                            <li>Adobe After Effect</li>
+                            <li>CorelDRAW</li>
+                            <li>Adobe XD</li>
+                            <li>Adobe InDesign</li>
+                            <li>Affinity</li>
+                            <li>Capcut</li>
+                            <li>PPT & Word Document</li>
+                            <li>HTML & CSS</li>
+                            <li>Creativity</li>
+                        </ul>
+                    </div>
+                    <div class="skills-photo-container">
+                        <img src="src/main/assets/images/skills.jpg" alt="Skills Photo" class="skills-photo" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Update skills-img src, alt  and title attributes I have added some other logos in assets/images/skill for your convenience feel free to pick one if required  -->
+
+    <section class="skills">
+        <div class="container">
+            <h2 class="h2" id="skills">Education</h2>
+            <div class="education-box animate-on-scroll">
+                <div class="education-row">
+                    <div class="education-card">
+                        <h3 class="edu-university">THIRUVALLUVAR UNIVERSITY</h3>
+                        <p class="edu-degree"><strong>Degree:</strong> Bachelor, Computer Application's</p>
+                        <p class="edu-college"><strong>College:</strong> Sree Arumugham Arts and Science
+                            College Thozhuthur, Tamil Nadu</p>
+                        <p class="edu-passout"><strong>Passout:</strong> 2021</p>
+                    </div>
+                    <div class="education-card">
+                        <h3 class="edu-university">BHARATHIYAR UNIVERSITY</h3>
+                        <p class="edu-degree"><strong>Degree:</strong> Masters, Computer Science</p>
+                        <p class="edu-college"><strong>College:</strong> Government Arts and Science
+                            College Coimbatore, Tamil Nadu</p>
+                        <p class="edu-passout"><strong>Passout:</strong> 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="h2">My Works</h2>
+        <div class="container">
+            <div class="works-gallery">
+                <img src="src/main/assets/images/pic1.jpg" alt="Work 1" class="work-img" />
+                <img src="src/main/assets/images/pic2.jpg" alt="Work 2" class="work-img" />
+                <img src="src/main/assets/images/pic3.jpg" alt="Work 3" class="work-img" />
+                <img src="src/main/assets/images/pic4.jpg" alt="Work 4" class="work-img" />
+                <img src="src/main/assets/images/pic5.jpg" alt="Work 5" class="work-img" />
+                <img src="src/main/assets/images/pic6.jpg" alt="Work 6" class="work-img" />
+                <img src="src/main/assets/images/pic8.jpg" alt="Work 8" class="work-img" />
+                <img src="src/main/assets/images/pic9.jpg" alt="Work 9" class="work-img" />
+                <img src="src/main/assets/images/pic11.jpg" alt="Work 11" class="work-img" />
+                <img src="src/main/assets/images/pic12.jpg" alt="Work 12" class="work-img" />
+                <img src="src/main/assets/images/pic13.jpg" alt="Work 13" class="work-img" />
+                <img src="src/main/assets/images/pic14.jpg" alt="Work 14" class="work-img" />
+                <img src="src/main/assets/images/pic15.jpg" alt="Work 15" class="work-img" />
+            </div>
+            <div class="gallery-work-link">
+                <a href="https://drive.google.com/drive/folders/1eXbHeGrD_EdD4RZ9WBEwpk-oYfpL_fQ9" target="_blank" rel="noopener" class="link">
+                    My Complete Work (Drive Link)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2 class="h2" id="contact">Send Message</h2>
+            <div class="contact-content">
+                <div class="contact-textbox">
+                    <!-- Please comment this component if you're not available for hire -->
+                    <strong href="#" class="hire-alert">
+                        <span class="indicator"></span>
+                        Available for hire
+                    </strong>
+                    <p class="contact-text">
+                        As a graphic designer, I craft visual identities, digital creatives, and design systems with a strong focus on clarity, emotion, and brand storytelling. I love turning ideas into visuals that communicate effortlessly and leave a lasting impression.
+                    </p>
+                    <p class="contact-text">
+                        I enjoy designing from scratch—exploring concepts, refining details, and bringing visuals to life across web, print, and social platforms.
+                    </p>
+
+                    <img
+                            src="src/main/assets/images/sign.jpg"
+                            alt="Karan"
+                            class="signatures"
+                            loading="lazy"
+                    />
+                </div>
+                <div class="contact-details-list">
+                    <p class="contact-intro">
+                        If you are interested in my profile, please feel free to contact me using the details below.
+                    </p>
+                    <div class="contact-detail">
+                        <span class="contact-label">Email:</span>
+                        <span class="contact-value">karan012001@gmail.com</span>
+                    </div>
+                    <div class="contact-detail">
+                        <span class="contact-label">Phone number:</span>
+                        <span class="contact-value">+91 90470 26770 / +91 93444 59984</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <!-- Update href and src attributes -->
+            <nav>
+                <ol class="footer-links">
+                    <li class="footer-link">
+                        <a title="Linked In" href="https://www.linkedin.com/in/designer-karan-a-8916a924b " target="_blank" rel="noopener"
+                        ><img
+                                loading="lazy"
+                                src="src/main/assets/images/linked_in.png"
+                                alt="GitHub"
+                        /></a>
+                    </li>
+                    <li class="footer-link">
+                        <a title="Drive" href="https://drive.google.com/drive/folders/1eXbHeGrD_EdD4RZ9WBEwpk-oYfpL_fQ9" target="_blank" rel="noopener"
+                        ><img
+                                loading="lazy"
+                                src="src/main/assets/images/drive.png"
+                                alt="Drive"
+                        /></a>
+                    </li>
+                    <li class="footer-link">
+                        <a title="Instagram" href="https://www.instagram.com/karan__4010?igsh=ZGtvZGJ3dWlsbjM1" target="_blank" rel="noopener"
+                        ><img
+                                loading="lazy"
+                                src="src/main/assets/images/instagram.jpg"
+                                alt="Linkedin"
+                        /></a>
+                    </li>
+                    <li class="footer-link">
+                        <a title="Instagram" href="https://www.behance.net/aravindaravind99" target="_blank" rel="noopener"
+                        ><img
+                                loading="lazy"
+                                src="src/main/assets/images/behance.png"
+                                alt="Behance"
+                        /></a>
+                    </li>
+                    <li class="footer-link">
+                        <a title="Facebook" href="https://www.facebook.com/aravindhan.288079?mibextid=ZbWKwL" target="_blank" rel="noopener"
+                        ><img
+                                loading="lazy"
+                                src="src/main/assets/images/fb.png"
+                                alt="Twitter"
+                        /></a>
+                    </li>
+                </ol>
+            </nav>
+            <p class="footer-text">
+                &copy; <span>2026</span> - Template designed & developed by <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/designer-karan-a-8916a924b ">Karan.</a>
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
