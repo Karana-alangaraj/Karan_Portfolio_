@@ -627,10 +627,11 @@ section:not(:first-child) {
 }
 
 section:first-child {
-  padding-block-start: 7rem;
+  padding-block-start: 4rem;
 }
 
 @media (max-width: 885px) {
+section:first-child { padding-block-start: 4rem; }
   :root {
     --gutter-x-large: 4rem;
   }
